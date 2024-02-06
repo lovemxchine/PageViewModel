@@ -20,7 +20,7 @@ class IntroScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 elevation: 8),
             onPressed: () {},
-            child: const Text("Hello World")),
+            child: const Text("Try it !")),
       ),
       image:
           Image.network('https://upload.wikimedia.org/wikipedia/en/5/54/Billie_Eilish_-_What_Was_I_Made_For%3F.png'),
@@ -37,7 +37,7 @@ class IntroScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 elevation: 8),
             onPressed: () {},
-            child: const Text("Hello World")),
+            child: const Text("Try it !")),
       ),
       image: Image.network('https://image.joox.com/JOOXcover/0/e4e5edca5394a502/300'),
     ),
@@ -53,7 +53,7 @@ class IntroScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10)),
                 elevation: 8),
             onPressed: () {},
-            child: const Text("Hello World")),
+            child: const Text("Try it !")),
       ),
       image: Image.network('https://upload.wikimedia.org/wikipedia/en/1/1a/TheSailorRichBrian.jpg'),
     )
@@ -73,7 +73,7 @@ class IntroScreen extends StatelessWidget {
         done: const Text('I will recommend my song to you next time again :)'),
         showNextButton: true,
         next:const Icon(Icons.arrow_right),
-        onDone: () => onDone,
+        onDone: () => onDone(context),
         curve: Curves.bounceOut,
         dotsDecorator: const DotsDecorator(
           size: Size(10,10),

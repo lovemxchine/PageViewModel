@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body:const Center(
         child: 
-        Text('Try it !'),
+        Text('Nice !'),
 
       ),
     );
